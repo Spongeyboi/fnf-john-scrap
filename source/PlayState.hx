@@ -379,7 +379,49 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+			
+			case 'house':
+					{
+						defaultCamZoom = 0.9;
+						curStage = 'house';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('housebg'));
+						if(FlxG.save.data.antialiasing)
+							{
+								bg.antialiasing = true;
+							}
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
 
+						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('houseroad'));
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						if(FlxG.save.data.antialiasing)
+							{
+								stageFront.antialiasing = true;
+							}
+						stageFront.scrollFactor.set(0.9, 0.9);
+						stageFront.active = false;
+						add(stageFront);
+					}
+			
+			case 'sky':
+					{
+						curStage = 'sky';
+						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('SkyBg'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+
+						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('SkyGrass'));
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						stageFront.antialiasing = true;
+						stageFront.scrollFactor.set(0.9, 0.9);
+						stageFront.active = false;
+						add(stageFront);
+					}
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
