@@ -1,0 +1,140 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"name": "Sun idle dance",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"anim": "singLEFT",
+			"name": "Sun Sing Note LEFT",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"anim": "singDOWN",
+			"name": "Sun Sing Note DOWN",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				-20
+			]
+		},
+		{
+			"anim": "singUP",
+			"name": "Sun Sing Note UP",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				-20,
+				-20
+			]
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "Sun Sing Note RIGHT",
+			"fps": 24,
+			"loop": false,
+			"indices": [],
+			"offsets": [
+				0,
+				-13
+			]
+		},
+		{
+			"anim": "idle-loop",
+			"name": "Sun idle dance",
+			"fps": 24,
+			"loop": true,
+			"indices": [
+				0,
+				11,
+				12,
+				1
+			],
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"anim": "singLEFT-loop",
+			"name": "Sun Sing Note LEFT",
+			"fps": 24,
+			"loop": true,
+			"indices": [
+				2,
+				13,
+				14,
+				1
+			],
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"anim": "singRIGHT-loop",
+			"name": "Sun Sing Note RIGHT",
+			"fps": 24,
+			"loop": true,
+			"indices": [
+				5,
+				16,
+				17,
+				1
+			],
+			"offsets": [
+				0,
+				-13
+			]
+		},
+		{
+			"anim": "singUP-loop",
+			"name": "Sun Sing Note UP",
+			"fps": 24,
+			"loop": true,
+			"indices": [
+				6,
+				57,
+				58,
+				5
+			],
+			"offsets": [
+				-20,
+				-20
+			]
+		}
+	],
+	"image": "characters/SUN",
+	"scale": 1,
+	"sing_duration": 6.1,
+	"healthicon": "sun",
+	"position": [
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"flip_x": false,
+	"no_antialiasing": false,
+	"healthbar_colors": [
+		255, 252, 69
+	]
+}

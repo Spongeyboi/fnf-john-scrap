@@ -1,18 +1,18 @@
 {
 	"songs": [
-		["Spookeez", "spooky", [34, 51, 68]],
-		["South", "spooky", [34, 51, 68]],
-		["Monster", "monster", [34, 51, 68]]
+		["Solar-flares", "sun", [255, 253, 115]],
+		["Golden-sun", "sun", [255, 253, 115]],
+		["Shine", "sun", [255, 253, 115]]
 	],
 
 	"weekCharacters": [
-		"spooky",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
-	"weekBackground": "halloween",
+	"weekBackground": "sun",
 
-	"storyName": "Spooky Month",
+	"storyName": "The sun",
 	"weekBefore": "week1",
 	"weekName": "Week 2",
 	"startUnlocked": true,

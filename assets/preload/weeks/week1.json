@@ -1,18 +1,18 @@
 {
 	"songs": [
-		["Bopeebo", "dad", [146, 113, 253]],
-		["Fresh", "dad", [146, 113, 253]],
-		["Dad Battle", "dad", [146, 113, 253]]
+		["Johnroll", "john", [255, 207, 130]],
+		["Busta", "john", [255, 207, 130]],
+		["Brazil", "inverted-john", [0, 0, 0]]
 	],
 
 	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
-	"weekBackground": "stage",
+	"weekBackground": "john",
 
-	"storyName": "Daddy Dearest",
+	"storyName": "John's streets bruh",
 	"weekBefore": "tutorial",
 	"weekName": "Week 1",
 	"startUnlocked": true,
